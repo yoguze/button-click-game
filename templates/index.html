@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ボタンクリックゲーム</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>ボタンクリックゲーム</h1>
+
+    <div class="status">
+      <p>ボタン押した回数: <span id="clickCount">0</span></p>
+      <p>残り時間: <span id="timeLeft">30</span> 秒</p>
+      <p>ハイスコア: <span id="highScore">0</span></p>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">ゲーム開始</button>
+      <button id="clickButton" disabled>押す！</button>
+    </div>
+
+    <p id="message" class="message"></p>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
