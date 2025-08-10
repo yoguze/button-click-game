@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ボタンクリックゲーム</h1>
+        <button id="clickButton" onclick="incrementCount()">ボタン</button>
+        <p>ボタン押した回数: <span id="clickCount">0</span></p>
+        <p>残り時間: <span id="timeLeft">30</span> seconds</p>
+        <p>ハイスコア: <span id="highScore">0</span></p>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
