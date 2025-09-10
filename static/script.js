@@ -5,7 +5,6 @@ const clickCountEl = document.getElementById("clickCount");
 const timeLeftEl = document.getElementById("timeLeft");
 const highScoreEl = document.getElementById("highScore");
 const messageEl = document.getElementById("message");
-
 const startBtn = document.getElementById("startBtn");
 const clickBtn = document.getElementById("clickButton");
 
